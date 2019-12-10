@@ -21,7 +21,7 @@ theme = "feather"
 # specify an image for the big header at the top of the page.
 # this will be a background cover image, so make it large enough
 # so that it won't upscale enough to pixelate
-# feather_header_image = "/theme_images/default.gif"
+feather_header_image = "/theme_images/lambda_entrance.jpg"
 
 # if you want comments, add your disqus embed code here.
 # you can obtain a code on the disqus website.
