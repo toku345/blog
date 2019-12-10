@@ -11,5 +11,23 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme = "feather"
+
 [extra]
 # Put all your custom variables here
+
+# specify an image for the big header at the top of the page.
+# this will be a background cover image, so make it large enough
+# so that it won't upscale enough to pixelate
+# feather_header_image = "/theme_images/default.gif"
+
+# if you want comments, add your disqus embed code here.
+# you can obtain a code on the disqus website.
+# feather_disqus_code = "<div id='disqus_thread'></div><script> var disqus_config = ... etc ... etc ..."
+
+# if you'd like people to be able to donate to you, you can include a donate link
+# to be displayed in the footer of the website.
+# feather_donate_link = "https://paypal.me/piedoomy"
+
+# if you want analytics, add your tracking code HTML here.
+# feather_analytics = "<script async src='https://www.googletagmanager.com/gtag/... etc ... etc ..."
