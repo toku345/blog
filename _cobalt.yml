@@ -1,6 +1,0 @@
-site:
-  title: Jump into the λ entrance ->
-  description: toku345 のブログです
-  base_url: https://toku345.com
-posts:
-  rss: rss.xml
