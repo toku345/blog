@@ -2,7 +2,7 @@
 title = "海馬に優しいプログラマーになるために ~自分の感情を見える化してみた~"
 author = "toku345"
 template = "page.html"
-date = 2019-12-10
+date = 2019-12-11
 description = "Classi Advent Calendar 2019 11日目の記事：海馬に優しいプログラマーになるために ~自分の感情を見える化してみた~"
 
 [taxonomies]
