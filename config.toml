@@ -33,3 +33,5 @@ feather_header_image = "/theme_images/lambda_entrance.jpg"
 
 # if you want analytics, add your tracking code HTML here.
 # feather_analytics = "<script async src='https://www.googletagmanager.com/gtag/... etc ... etc ..."
+generate_categories_pages = true
+generate_tags_pages = true
