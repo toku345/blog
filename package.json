@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "firebase-tools": "^8.14.1"
+  },
+  "name": "blog"
+}
