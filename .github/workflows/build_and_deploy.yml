@@ -6,18 +6,19 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-      with:
-        submodules: true
-    - uses: ryank90/action-hugo-firebase-deploy@master
-      with:
-        firebase-token: ${{ secrets.firebase_token }}
-        hugo-params: --minify
+      - uses: actions/checkout@v1
+        with:
+          submodules: true
+      - uses: ryank90/action-hugo-firebase-deploy@master
+        with:
+          firebase-token: ${{ secrets.firebase_token }}
+          alias: default
+          hugo-params: --minify
