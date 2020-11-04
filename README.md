@@ -33,6 +33,12 @@ $ hugo server
 $ npx firebase serve --only hosting
 ```
 
+## Build
+
+```
+$ hugo --minify
+```
+
 ## Deploy
 
 ```console
