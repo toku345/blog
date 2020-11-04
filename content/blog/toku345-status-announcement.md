@@ -5,11 +5,11 @@ description: "Classi Advent Calendar 2019 11日目の記事：海馬に優しい
 featured: false # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
-# featureImage: "toku345-status-capture.gif"
+# featureImage: "toku345-status-capture.png"
 
 # menu: main
-thumbnail: "/content/blog/toku345-status-announcement/toku345-status-capture.gif"
-shareImage: "/content/blog/toku345-status-announcement/toku345-status-capture.gif"
+thumbnail: "images/toku345-status-capture.gif"
+shareImage: "images/toku345-status-capture.gif"
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
 figurePositionShow: true # Override global value for showing the figure label.
