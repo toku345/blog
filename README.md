@@ -38,4 +38,7 @@ $ npx firebase serve --only hosting
 ```console
 $ npx firebase login
 $ npx firebase deploy --only hosting
+
+# authがうんぬんって感じのエラーログがでる場合は、一旦 logout すべし
+$ npx firebase logout
 ```
