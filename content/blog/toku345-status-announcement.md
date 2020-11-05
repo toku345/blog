@@ -8,8 +8,8 @@ toc: false # Controls if a table of contents should be generated for first-level
 # featureImage: "toku345-status-capture.png"
 
 # menu: main
-thumbnail: "images/toku345-status-capture.gif"
-shareImage: "images/toku345-status-capture.gif"
+thumbnail: "thumbnails/toku345-status-capture.gif"
+shareImage: "thumbnails/toku345-status-capture.gif"
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
 figurePositionShow: true # Override global value for showing the figure label.
