@@ -16,8 +16,8 @@ figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - technology
 tags:
-  - prototype
-  - 旧記事
+  - prototyping
+  - アドベントカレンダー2019
 
 # comment: false # Disable comment if false.
 ---
