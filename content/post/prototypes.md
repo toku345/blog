@@ -32,4 +32,4 @@ series:
 - FirePunch
 - [toku345 status(感情の変化を見える化してみよう)](/post/toku345-status)
 - AlienVoice
-- ハリー・ポ○ター風？動く写真
+- [まるでハリー・ポ○ター？写真に息を吹き込むビューワー](/post/breathe-life-to-picture/)
