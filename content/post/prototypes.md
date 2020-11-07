@@ -30,6 +30,6 @@ series:
 - 音階クイズ（
 - 自家製Google Clip
 - FirePunch
-- [toku345 status(気分の見える化)](/post/toku345-status)
+- [toku345 status(感情の変化を見える化してみよう)](/post/toku345-status)
 - AlienVoice
 - ハリー・ポ○ター風？動く写真
