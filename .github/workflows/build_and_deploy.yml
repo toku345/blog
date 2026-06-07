@@ -8,14 +8,23 @@ on:
   push:
     branches: [master]
 
+# Least-privilege default token; the Firebase deploy uses FIREBASE_TOKEN, not
+# GITHUB_TOKEN, so read is sufficient.
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           submodules: true
-      - uses: ryank90/action-hugo-firebase-deploy@master
+          persist-credentials: false
+      # Pinned to a commit SHA so a compromised upstream tag cannot exfiltrate
+      # the Firebase deploy token. Migrating off this long-lived token to
+      # official tooling + OIDC is tracked as a follow-up issue.
+      - uses: ryank90/action-hugo-firebase-deploy@6181d7b6c3158bddd49d3911dcf8c9bb8426109e # master pinned 2026-06
         with:
           firebase-token: ${{ secrets.firebase_token }}
           alias: blogs-toku345
